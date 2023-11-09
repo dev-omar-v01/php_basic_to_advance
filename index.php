@@ -13,8 +13,10 @@
     */
     $result = 5 /*this is a 2 number plus*/ +10;
     echo "result is $result <br>";
-    
-      ECHO "hello <br>";
+    print("hellow");
+    @include("hello.php");
+    @include("global_and_local_scope.php");
      ?>
+     
 </body>
 </html>
