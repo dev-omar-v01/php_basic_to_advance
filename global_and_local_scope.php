@@ -42,5 +42,11 @@
    $text2 = 5;
    $text3 = 4;
    print("<h2>".$text1."<h2>");
+
+   $list = array("A", "B", "C", "D");
+
+   for ($i = 0; $i < count($list); $i++) {
+        echo "list ".$list[$i]."<br>";
+   } 
  
 ?>

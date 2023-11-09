@@ -12,10 +12,11 @@
       this is a multiple line camment
     */
     $result = 5 /*this is a 2 number plus*/ +10;
-    echo "result is $result <br>";
-    print("hellow");
-    @include("hello.php");
-    @include("global_and_local_scope.php");
+    // echo "result is $result <br>";
+    // print("hellow");
+    // @include("hello.php");
+    // @include("global_and_local_scope.php");
+    @include("object.php");
      ?>
      
 </body>
